@@ -1,7 +1,7 @@
 /*!
  * ZUI: Generated from less code - v1.9.1 - 2019-05-10
- * http://zui.sexy
- * GitHub: https://github.com/easysoft/zui.git 
+ * http://openzui.com
+ * GitHub: https://github.com/easysoft/zui.git
  * Copyright (c) 2019 cnezsoft.com; Licensed MIT
  */
 
@@ -51,7 +51,7 @@
         importantPale: '#f7ebe1',
         specialPale: '#f5eeff'
     };
-    
+
     colorset.get = function(colorName) {
         if(typeof colorName === 'undefined' || colorName === 'random') {
             colorName = presetColors[(nextColorIndex++) % presetColors.length];

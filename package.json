@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/easysoft/zui/issues"
   },
-  "homepage": "http://zui.sexy",
+  "homepage": "http://openzui.com",
   "devDependencies": {
     "colors": "^1.1.2",
     "del": "^2.2.0",

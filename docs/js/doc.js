@@ -1,14 +1,14 @@
 /*!
  * ZUI: Document - v1.9.1 - 2019-05-10
- * http://zui.sexy
- * GitHub: https://github.com/easysoft/zui.git 
+ * http://openzui.com
+ * GitHub: https://github.com/easysoft/zui.git
  * Copyright (c) 2019 cnezsoft.com; Licensed MIT
  */
 
 /* ========================================================================
  * ZUI: array.js
  * Array Polyfill.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -246,10 +246,10 @@
  * jQuery Hotkeys Plugin
  * Based upon the plugin by Tzury Bar Yochay:
  * https://github.com/tzuryby/jquery.hotkeys
- *  
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * official version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2010, John Resig
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -2263,7 +2263,7 @@ function escape(html, encode) {
 }
 
 function unescape(html) {
-	// explicitly match decimal, hex, and named HTML entities 
+	// explicitly match decimal, hex, and named HTML entities
   return html.replace(/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/g, function(_, n) {
     n = n.toLowerCase();
     if (n === 'colon') return ':';
@@ -2463,7 +2463,7 @@ if (typeof module !== 'undefined' && typeof exports === 'object') {
  *
  */
 
- /** * @license 
+ /** * @license
  */
 
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.less = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
@@ -12546,13 +12546,13 @@ Promise.all = function (arr) {
 }
 
 Promise.reject = function (value) {
-  return new Promise(function (resolve, reject) { 
+  return new Promise(function (resolve, reject) {
     reject(value);
   });
 }
 
 Promise.race = function (values) {
-  return new Promise(function (resolve, reject) { 
+  return new Promise(function (resolve, reject) {
     values.forEach(function(value){
       Promise.resolve(value).then(resolve, reject);
     })
@@ -12712,7 +12712,7 @@ require('./polyfill-done.js');
 /* ========================================================================
  * ZUI: doc.js
  * For document UI
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -15007,4 +15007,3 @@ require('./polyfill-done.js');
         pkg: zuiPkg
     };
 }(window, jQuery));
-

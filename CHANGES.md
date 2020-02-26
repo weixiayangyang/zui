@@ -52,11 +52,11 @@
 
 [2019-03-04]
 
-新增 <a href="http://zui.sexy#control/loading" target="_blank">加载指示器</a>，并解决了已知问题。
+新增 <a href="http://openzui.com#control/loading" target="_blank">加载指示器</a>，并解决了已知问题。
 
 ### 更新明细
 
-* 新增 <a href="http://zui.sexy#control/loading" target="_blank">加载指示器</a>；
+* 新增 <a href="http://openzui.com#control/loading" target="_blank">加载指示器</a>；
 * CSS 基础：
   * 修复 了 `.clearfix` 声明重复的问题（[issue #99](https://github.com/easysoft/zui/issues/99)）；
   * 优化 了链接 `<a>` 和按钮元素上的默认 CSS 动画效果，现在仅针对部分 CSS 属性（例如 `color`、`background` 等）启用动画；
@@ -78,7 +78,7 @@
 * 导航：
   * 新增 `.nav-default` 类来提供基本导航样式，便于定制个性化导航；
 * 下拉菜单：
-  * 修复 了一些情况下当子菜单向左显示菜单时位置不对的问题（[@夜风](http://forum.zui.sexy/thread/453.html)）；
+  * 修复 了一些情况下当子菜单向左显示菜单时位置不对的问题（[@夜风](http://forum.openzui.com/thread/453.html)）；
 * 颜色选择器：
   * 修复 了 `updateColor` 选项失效的问题；
 * 搜索框：
@@ -136,16 +136,16 @@
 ### 更新明细
 
 + 数据表格2:
-  * 修复了 `responsive` 选项和 `checkbox` 选项同时启用冲突的问题[@YNZZZ](http://forum.zui.sexy/thread/417.html)）；
-  * 修复了 `configs` 中的 `html` 属性和列配置的 `html` 属性设置为 `true` 时没有生效的问题（[@YNZZ](http://forum.zui.sexy/thread/422.html)）；
-  * 修复了 列配置中 `valueOperator` 没有按照预期工作的问题，同时修复了值转换期函数中参数不完整的问题（[@zz](http://forum.zui.sexy/thread/419.html)）；
-  * 修复了 默认的日期值转换期没有按照预期工作的问题（[@YNZZZ](http://forum.zui.sexy/thread/417.html)）；
-  * 修复了 `checkByClickRow` 和 `selectable` 选项冲突的问题，当 `checkByClickRow` 被禁用时，如果开启拖拽选择，则仅可以在勾选框所在列进行拖选操作（[@YNZZZ](http://forum.zui.sexy/thread/416.html)）；
+  * 修复了 `responsive` 选项和 `checkbox` 选项同时启用冲突的问题[@YNZZZ](http://forum.openzui.com/thread/417.html)）；
+  * 修复了 `configs` 中的 `html` 属性和列配置的 `html` 属性设置为 `true` 时没有生效的问题（[@YNZZ](http://forum.openzui.com/thread/422.html)）；
+  * 修复了 列配置中 `valueOperator` 没有按照预期工作的问题，同时修复了值转换期函数中参数不完整的问题（[@zz](http://forum.openzui.com/thread/419.html)）；
+  * 修复了 默认的日期值转换期没有按照预期工作的问题（[@YNZZZ](http://forum.openzui.com/thread/417.html)）；
+  * 修复了 `checkByClickRow` 和 `selectable` 选项冲突的问题，当 `checkByClickRow` 被禁用时，如果开启拖拽选择，则仅可以在勾选框所在列进行拖选操作（[@YNZZZ](http://forum.openzui.com/thread/416.html)）；
   * 修复了 Windows 上滚轮方向相反，滚动距离过小的问题，并且新增了 `mouseWheelFactor` 参数用于控制滚轮滚动速度和方向；
   * 修复了 当数据没有定义 `id` 或 `rowId` 属性时获取选中行编号为 `undefined` 的问题；
   * 修复了 `showRowIndex` 设置为 `false` 列宽混乱的问题；
   * 优化了 缓存机制，现在默认缓存大小为 `1`；
-  * 优化了 行号列列宽自动计算方法，避免有时出现省略号的问题（[@徐业龙](http://forum.zui.sexy/thread/424.html)）
+  * 优化了 行号列列宽自动计算方法，避免有时出现省略号的问题（[@徐业龙](http://forum.openzui.com/thread/424.html)）
 + 数据表格1:
   * 修复了 启用本地存储后，排序操作方向没有按照预期顺序显示的问题，参见 issue #79；
 + 上下文菜单：
@@ -161,13 +161,13 @@
 + 图片浏览：
   * 增加 `setImage(image, caption)` 和 `show()` 方法用于手动控制显示和更新内容（QQ 群 @深圳市雷诺表业-it）；
 
-感谢 [@neo20](https://github.com/easysoft/zui/pull/94)、[zora-han](https://github.com/easysoft/zui/pull/93) 提交了 Pull Request。欢迎大家反馈建议，最好是在[论坛发帖](http://forum.zui.sexy/forum/)或者[在 Github 上提交 issue](https://github.com/easysoft/zui/issues)，更欢迎有能力的同学[提交 Pull Request](https://github.com/easysoft/zui/pulls)。
+感谢 [@neo20](https://github.com/easysoft/zui/pull/94)、[zora-han](https://github.com/easysoft/zui/pull/93) 提交了 Pull Request。欢迎大家反馈建议，最好是在[论坛发帖](http://forum.openzui.com/forum/)或者[在 Github 上提交 issue](https://github.com/easysoft/zui/issues)，更欢迎有能力的同学[提交 Pull Request](https://github.com/easysoft/zui/pulls)。
 
 ## v 1.8.0
 
 [2018-01-05]
 
-1.8 版本带来了多个新的 JS 组件，包括全新的<a href="http://zui.sexy#view/datagrid" target="_blank">数据表格2</a>、<a href="http://zui.sexy#view/tabs" target="_blank">标签页管理器</a>、<a href="http://zui.sexy#javascript/contextmenu" target="_blank">上下文菜单</a>、<a href="http://zui.sexy#javascript/searchbox" target="_blank">搜索框</a>、<a href="http://zui.sexy#component/input-control" target="_blank">输入框</a>和<a href="http://zui.sexy#javascript/pagerjs" target="_blank">分页器</a>。
+1.8 版本带来了多个新的 JS 组件，包括全新的<a href="http://openzui.com#view/datagrid" target="_blank">数据表格2</a>、<a href="http://openzui.com#view/tabs" target="_blank">标签页管理器</a>、<a href="http://openzui.com#javascript/contextmenu" target="_blank">上下文菜单</a>、<a href="http://openzui.com#javascript/searchbox" target="_blank">搜索框</a>、<a href="http://openzui.com#component/input-control" target="_blank">输入框</a>和<a href="http://openzui.com#javascript/pagerjs" target="_blank">分页器</a>。
 
 ### 新功能预览
 
@@ -180,12 +180,12 @@
 
 ### 更新明细
 
-+ 新增 <a href="http://zui.sexy#view/datagrid" target="_blank">数据表格2</a>；
-+ 新增 <a href="http://zui.sexy#view/tabs" target="_blank">标签页管理器</a>；
-+ 新增 <a href="http://zui.sexy#javascript/contextmenu" target="_blank">上下文菜单</a>；
-+ 新增 <a href="http://zui.sexy#javascript/pagerjs" target="_blank">分页器</a>；
-+ 新增 <a href="http://zui.sexy#javascript/searchbox" target="_blank">搜索框</a>；
-+ 新增 <a href="http://zui.sexy#component/input-control" target="_blank">输入框</a>；
++ 新增 <a href="http://openzui.com#view/datagrid" target="_blank">数据表格2</a>；
++ 新增 <a href="http://openzui.com#view/tabs" target="_blank">标签页管理器</a>；
++ 新增 <a href="http://openzui.com#javascript/contextmenu" target="_blank">上下文菜单</a>；
++ 新增 <a href="http://openzui.com#javascript/pagerjs" target="_blank">分页器</a>；
++ 新增 <a href="http://openzui.com#javascript/searchbox" target="_blank">搜索框</a>；
++ 新增 <a href="http://openzui.com#component/input-control" target="_blank">输入框</a>；
 + 工具提示：
   * 修复 触发的事件名称；
 + 图标：
@@ -308,7 +308,7 @@
   - 新增了一些字体图标，包括 `.icon-database`、`.icon-eraser`、`.icon-strikethrouth`、`.icon-underline`、`.icon-header`、`.icon-italic`；
   - 修复了图标旋转辅助类在低版本 IE 中无效的问题；
 * 开关控件：
-  - 新增开关控件 `.switch`，详情访问 http://zui.sexy/#control/switch ；
+  - 新增开关控件 `.switch`，详情访问 http://openzui.com/#control/switch ；
 * 文档网站：
   - 修正当页面打开对话框后按 `ESC` 键导致文档页面关闭而对话框背景层还存在导致页面不可用的问题；
   - 修正了文档上一些资源的路径，现在文档支持使用网址的二级目录形式访问；
@@ -518,8 +518,8 @@
 [2016-01-26]
 
 本次更新了大部分文档，增加了必要的代码示例。
-简单易用的[树形菜单组件](http://zui.sexy/#view/tree)加入了ZUI。
-主题功能得到增强，文档中的[主题章节](http://zui.sexy/#basic/theme)提供实时预览和编译定制功能。
+简单易用的[树形菜单组件](http://openzui.com/#view/tree)加入了ZUI。
+主题功能得到增强，文档中的[主题章节](http://openzui.com/#basic/theme)提供实时预览和编译定制功能。
 修复了论坛和QQ群中反馈的大部分问题。
 
 ### 更新明细
@@ -791,7 +791,7 @@ ZUI1.2正式版终于发布了！
  * 增强 拖放插件增加触发选择器参数，可以自定义拖拽事件触发的内容，此参数支持函数来动态获取值；
  * 修复 Lightbox在小屏幕上显示问题；
  * 修复 轮播在触摸屏幕上无法点击链接的问题
- * 项目网站更改为 [http://zui.sexy](http://zui.sexy)
+ * 项目网站更改为 [http://openzui.com](http://openzui.com)
 
 ## v 1.0.0
 

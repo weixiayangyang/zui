@@ -30,7 +30,7 @@ var tabs = [{
     }
 }, {
     title: 'MZUI',
-    url: 'http://zui.sexy/m',
+    url: 'http://openzui.com/m',
     type: 'iframe'
 }, {
     defaultTitle: '无法加载的标签页',
@@ -246,7 +246,7 @@ var myTabs = $('#myTabs').data('zui.tabs');
 
 // 要打开的标签页对象
 var myTab = {
-    url: 'http://zui.sexy',
+    url: 'http://openzui.com',
     type: 'iframe',
     defaultTitle: 'ZUI 官方网站'
 };
@@ -256,7 +256,7 @@ myTabs.open(myTab);
 
 ```js
 // 当标签页类型为 iframe 时，还可以直接使用 iframe 地址作为参数
-myTabs.open('http://zui.sexy');
+myTabs.open('http://openzui.com');
 ```
 
 ### `close(tabId, forceClose)`
@@ -476,7 +476,7 @@ function afterPageLoad() {
             }
         }, {
             title: 'MZUI',
-            url: 'http://zui.sexy/m',
+            url: 'http://openzui.com/m',
             type: 'iframe'
         }, {
             defaultTitle: '无法加载的标签页',

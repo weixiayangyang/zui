@@ -1,6 +1,6 @@
 /* ========================================================================
  * ZUI: contextmenu.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2017-2018 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -265,4 +265,3 @@
     };
     $.fn.contextmenu.Constructor = ContextListener;
 }(jQuery, undefined));
-
