@@ -1,8 +1,8 @@
 /*!
- * ZUI: 数据表格② - v1.9.1 - 2019-05-10
- * http://zui.sexy
+ * ZUI: 数据表格② - v1.9.1 - 2020-05-11
+ * http://openzui.com
  * GitHub: https://github.com/easysoft/zui.git 
- * Copyright (c) 2019 cnezsoft.com; Licensed MIT
+ * Copyright (c) 2020 cnezsoft.com; Licensed MIT
  */
 
 /*!
@@ -229,7 +229,7 @@
 
 /* ========================================================================
  * ZUI: datagrid.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -1836,4 +1836,3 @@
         $('[data-ride="datagrid"]').datagrid();
     });
 }(jQuery, undefined));
-

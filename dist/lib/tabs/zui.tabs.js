@@ -1,13 +1,13 @@
 /*!
- * ZUI: 标签页管理器 - v1.9.1 - 2019-05-10
- * http://zui.sexy
+ * ZUI: 标签页管理器 - v1.9.1 - 2020-05-11
+ * http://openzui.com
  * GitHub: https://github.com/easysoft/zui.git 
- * Copyright (c) 2019 cnezsoft.com; Licensed MIT
+ * Copyright (c) 2020 cnezsoft.com; Licensed MIT
  */
 
 /* ========================================================================
  * ZUI: tabs.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2017-2018 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -485,4 +485,3 @@
     Tabs.NAME = NAME;
     $.fn.tabs.Constructor = Tabs;
 }(jQuery));
-

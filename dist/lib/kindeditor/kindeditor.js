@@ -9972,7 +9972,7 @@ KindEditor.plugin('wordpaste', function(K) {
 
 /* ========================================================================
  * ZUI: Kindeditor plugin - zui
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2019-2019 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -10033,9 +10033,10 @@ KindEditor.plugin('zui', function(K) {
         });
     }
 });
+
 /* ========================================================================
  * ZUI: Kindeditor plugin - placeholder
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2019-2019 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -10089,9 +10090,10 @@ KindEditor.plugin('placeholder', function(K) {
         }
     });
 });
+
 /* ========================================================================
  * ZUI: Kindeditor plugin - paste-image
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2019-2019 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -10258,6 +10260,7 @@ KindEditor.plugin('pasteimage', function(K) {
         });
     });
 });
+
 /*  cellPos jQuery plugin
     ---------------------
     Get visual position of cell in HTML table (or its block like thead).

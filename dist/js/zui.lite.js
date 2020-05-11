@@ -1,15 +1,15 @@
 /*!
- * ZUI: Lite edition - v1.9.1 - 2019-05-10
- * http://zui.sexy
+ * ZUI: Lite edition - v1.9.1 - 2020-05-11
+ * http://openzui.com
  * GitHub: https://github.com/easysoft/zui.git 
- * Copyright (c) 2019 cnezsoft.com; Licensed MIT
+ * Copyright (c) 2020 cnezsoft.com; Licensed MIT
  */
 
 /*! Some code copy from Bootstrap v3.0.0 by @fat and @mdo. (Copyright 2013 Twitter, Inc. Licensed under http://www.apache.org/licenses/)*/
 
 /* ========================================================================
  * ZUI: jquery.extensions.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -121,10 +121,9 @@
     };
 }(jQuery, window, undefined));
 
-
 /* ========================================================================
  * ZUI: typography.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -146,7 +145,6 @@
     });
 }(jQuery));
 
-
 /* ========================================================================
  * Bootstrap: alert.js v3.0.0
  * http://twbs.github.com/bootstrap/javascript.html#alerts
@@ -167,7 +165,7 @@
  *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ======================================================================== */
 
 
@@ -256,10 +254,10 @@
 /* ========================================================================
  * Bootstrap: transition.js v3.2.0
  * http://getbootstrap.com/javascript/#transitions
- *  
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -323,14 +321,13 @@
 
 }(jQuery);
 
-
 /* ========================================================================
  * Bootstrap: collapse.js v3.0.0
  * http://twbs.github.com/bootstrap/javascript.html#collapse
- * 
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -504,10 +501,9 @@
 
 }(window.jQuery);
 
-
 /* ========================================================================
  * ZUI: device.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -555,10 +551,9 @@
     resetCssClass();
 }(window, jQuery));
 
-
 /* ========================================================================
  * ZUI: browser.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -644,11 +639,10 @@
     });
 }(jQuery));
 
-
 /* ========================================================================
  * ZUI: date.js
  * Date polyfills
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -892,11 +886,10 @@
     }
 }());
 
-
 /* ========================================================================
  * ZUI: string.js
  * String Polyfill.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -980,14 +973,13 @@
 
 })();
 
-
 /* ========================================================================
  * Resize: resize.js [Version: 1.1]
  * http://benalman.com/projects/jquery-resize-plugin/
- *  
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * official version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * opyright (c) 2010 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
@@ -1249,10 +1241,9 @@
 
 })(jQuery, this);
 
-
 /* ========================================================================
  * ZUI: storeb.js
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -1471,14 +1462,13 @@
     });
 }(window, jQuery));
 
-
 /* ========================================================================
  * Bootstrap: tab.js v3.0.0
  * http://twbs.github.com/bootstrap/javascript.html#tabs
- *  
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -1612,14 +1602,13 @@
 
 }(window.jQuery);
 
-
 /* ========================================================================
  * Bootstrap: modal.js v3.2.0
  * http://getbootstrap.com/javascript/#modals
  *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -2048,10 +2037,9 @@
 
 }(jQuery, undefined);
 
-
 /* ========================================================================
  * ZUI: modal.trigger.js [1.2.0+]
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright (c) 2014-2016 cnezsoft.com; Licensed MIT
  * ======================================================================== */
@@ -2504,15 +2492,14 @@
     });
 }(window.jQuery, window, undefined));
 
-
 /* ========================================================================
  * Bootstrap: tooltip.js v3.0.0
  * http://twzui.github.com/bootstrap/javascript.html#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
- *  
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -2545,7 +2532,7 @@
         this.$element = null
 
         this.init('tooltip', element, options)
-    } 
+    }
 
     Tooltip.DEFAULTS = {
         animation: true,
@@ -2932,14 +2919,13 @@
 
 }(window.jQuery);
 
-
 /* ========================================================================
  * Bootstrap: popover.js v3.0.0
  * http://twbs.github.com/bootstrap/javascript.html#popovers
  *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -3077,14 +3063,13 @@
 
 }(window.jQuery);
 
-
 /* ========================================================================
  * Bootstrap: dropdown.js v3.0.0
  * http://twbs.github.com/bootstrap/javascript.html#dropdowns
  *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -3243,14 +3228,13 @@
 
 }(window.jQuery);
 
-
 /* ========================================================================
  * Bootstrap: carousel.js v3.0.0
  * http://twzui.github.com/bootstrap/javascript.html#carousel
- * 
+ *
  * ZUI: The file has been changed in ZUI. It will not keep update with the
  * Bootsrap version in the future.
- * http://zui.sexy
+ * http://openzui.com
  * ========================================================================
  * Copyright 2012 Twitter, Inc.
  *
@@ -3520,4 +3504,3 @@
     })
 
 }(window.jQuery);
-
